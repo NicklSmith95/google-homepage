@@ -1,5 +1,43 @@
+* {
+    font-family: "Roboto Condensed";
+}
+
+body {
+    font-size: 14px;
+    color: #222
+}
+
 #logo {
     position: relative;
     left: 816px;
     top: 250px;
+}
+
+#search {
+    position: relative;
+    left: 705px;
+    top: 275px;
+    width: 487px;
+    height: 34px;
+    border-radius: 17px 17px 17px 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-width: 2px;
+    border-color: rgb(182, 181, 181);
+}
+
+.topnav-left {
+    position: relative;
+    font-size: 14px;
+    color: #222;
+    padding: 6px;
+    
+}
+
+.topnav-right {
+    position: relative;
+    font-size: 14px;
+    color: #222;
+    padding: 6px;
+    
 }
