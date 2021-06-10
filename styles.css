@@ -8,22 +8,30 @@ body {
 }
 
 #logo {
-    position: relative;
-    left: 816px;
-    top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8.5%;
+    display: block;
+
 }
 
 #search {
-    position: relative;
-    left: 705px;
-    top: 275px;
-    width: 487px;
-    height: 34px;
-    border-radius: 17px 17px 17px 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    display: block;
+    width: 520px;
+    height: 42px;
+    border-radius: 20px 20px 20px 20px;
     padding-left: 30px;
     padding-right: 30px;
-    border-width: 2px;
-    border-color: rgb(182, 181, 181);
+    border-width: 1px;
+    border-color: rgb(225, 225, 225);
+    border-style: solid;
+}
+
+#search:hover {
+    box-shadow: 0 0 5px 0.5px rgba(33,33,33,.2);
 }
 
 .topnav-left {
