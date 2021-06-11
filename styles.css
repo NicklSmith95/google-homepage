@@ -1,10 +1,11 @@
 * {
     font-family: "Roboto Condensed";
+    margin: 0;
 }
 
 body {
     font-size: 14px;
-    color: #222
+    color: #222;
 }
 
 #logo {
@@ -34,16 +35,41 @@ body {
     box-shadow: 0 0 5px 0.5px rgba(33,33,33,.2);
 }
 
-.topnav-left {
-    position: relative;
-    font-size: 14px;
+a {
+    text-decoration: none;
     color: #222;
-    padding: 6px;
-    
+    font-family: "Roboto Condensed";
+    font-size: 16px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 12px;
+    padding: 0;
+    overflow: hidden;   
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 12px;
+}
+
+footer {
+    position: fixed;
+    bottom: 3px;
+    background-color: rgb(242, 242, 242);
+    height: 44px;
+    width: 100%;
+}
+
+
+
 .topnav-right {
-    position: relative;
+    position: fixed;
     font-size: 14px;
     color: #222;
     padding: 6px;
